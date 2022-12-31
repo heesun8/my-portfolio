@@ -1,0 +1,19 @@
+.app__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.app__footer p {
+    font-size: 14px;
+    color: #ddd7d7;
+    padding-top: 1em;
+}
+.app__footer-dash {
+
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, darkblue, darkorchid);
+  
+  }

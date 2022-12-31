@@ -1,0 +1,26 @@
+.app__contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem 0 2rem 0;
+}
+.app__contact h1{
+  font-weight: 700;
+  padding-bottom: 0.3em;
+}
+.app__contact-dash {
+
+  width: 50%;
+  height: 2px;
+  background: linear-gradient(to right, darkblue, darkorchid);
+
+}
+
+.app__contact-links{
+  padding: 2em 0 1em 0;
+}
+.app__contact-links a{
+  padding: 0 1em 0 1em;  
+}

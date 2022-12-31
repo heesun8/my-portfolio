@@ -1,0 +1,29 @@
+.app__skillsCard {
+    position: relative;    
+    border-radius: 30px;
+    /* overflow: hidden; */
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app__skillsCard img {
+    width: 40%;
+    /* border: 2px solid #fff;
+    border-radius: 15%; */
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(to right, darkblue, darkorchid) border-box;
+        /*Get both border radius and linear gradients*/
+    border-radius: 15px;
+    border: 2px solid transparent;
+    padding: 0.4em;
+
+}
+
+.app__skillsCard h3 {
+    font-size: 80%;
+    padding-top: 1em;
+}
