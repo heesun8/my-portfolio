@@ -12,7 +12,7 @@ const Projects = () => {
         <Row>
           <Col size={12}>
             <h2>Projects</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p></p>
             <Row className="app__project-item">
               {
                 data.projects.map((project, index) => {
@@ -28,7 +28,7 @@ const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={images.colorSharp2}></img>
+      <img className="background-image-right" src={images.colorSharp2} alt="bgShades"></img>
     </section>
   )
 }

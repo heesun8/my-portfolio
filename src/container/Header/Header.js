@@ -1,12 +1,12 @@
 import { intro1 } from "../../constants";
-import { React, useState } from 'react';
+import { React } from 'react';
 
 import './Header.css';
 
 const Header = () => {
 
     return (
-        <div>
+        <div id="home">
             <video
                 src={intro1}
                 type="video/mp4"
@@ -18,7 +18,7 @@ const Header = () => {
             </video>
             <header className="app__header">
                 <h1>Hello, I'm Heesun
-                    <span>I'm a frontend web developer.</span>
+                    <span>A frontend web developer.</span>
                 </h1>
             </header>
         </div>

@@ -2,14 +2,18 @@ import images from './images';
 
 const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: images.project1,
+      title: "Solo lifestyle Shopping App",
+      description: "Web responsive app built with React, Typescript and Bootstrap",
+      imgUrl: images.project3,
+      site: "https://canullav.vercel.app/",
+      gitUrl: "https://github.com/heesun8/my-shopping",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: images.project2,
+      title: "Ramen Restaurant App",
+      description: "Web responsive app built using React, Vercel and CSS flex-grid tools",
+      imgUrl: images.project4,
+      site: "https://ramen-ya-restaurant-21t1.vercel.app/",
+      gitUrl: "https://github.com/heesun8/ramen-ya-restaurant",
     },
     // {
     //   title: "Business Startup",
@@ -78,6 +82,11 @@ const skills = [
         title: "EXPRESS.JS",
         imgUrl: images.skill11,
     },
+    {
+        title: "TYPESCRIPT",
+        imgUrl: images.skill12,
+    },
 ];
 
+// eslint-disable-next-line
   export default { projects, skills }

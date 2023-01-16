@@ -5,6 +5,8 @@ import contact2 from '../assets/contact2.jpg';
 import header from '../assets/header.png';
 import project1 from '../assets/project1.avif';
 import project2 from '../assets/project2.avif';
+import project3 from '../assets/project3.png';
+import project4 from '../assets/project4.png';
 import colorSharp from '../assets/colorSharp.png';
 import colorSharp2 from '../assets/colorSharp2.png';
 import skill1 from '../assets/skill1.png';
@@ -18,7 +20,9 @@ import skill8 from '../assets/skill8.png';
 import skill9 from '../assets/skill9.png';
 import skill10 from '../assets/skill10.png';
 import skill11 from '../assets/skill11.png';
+import skill12 from '../assets/skill12.png';
 
+// eslint-disable-next-line
 export default{
     banner,
     contact,
@@ -26,6 +30,8 @@ export default{
     header,
     project1,
     project2,
+    project3,
+    project4,
     colorSharp,
     colorSharp2, 
     contact2,
@@ -39,5 +45,6 @@ export default{
     skill8,
     skill9,
     skill10,
-    skill11
+    skill11,
+    skill12
 }

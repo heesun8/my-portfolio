@@ -3,6 +3,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
     background-color: #000;
     padding: 1rem 2rem;
     z-index: 2;
@@ -101,7 +102,7 @@
     letter-spacing: 0.04em;
     text-transform: capitalize;
     line-height: 28px;
-    font-size: 30px;
+    font-size: 20px;
   }
 
 @media screen and (max-width: 2000px){
